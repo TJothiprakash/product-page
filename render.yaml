@@ -1,0 +1,10 @@
+static_sites:
+  - name: product-page
+    repo: TJothiprakash/product-page
+    branch: main
+    buildCommand: npm ci && npm run build
+    publishPath: dist
+    pullRequestPreviews: true
+    env:
+      - key: NODE_VERSION
+        value: "18"
