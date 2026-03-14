@@ -2,7 +2,7 @@ static_sites:
   - name: product-page
     repo: TJothiprakash/product-page
     branch: main
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install && npm run build
     publishPath: dist
     pullRequestPreviews: true
     env:
