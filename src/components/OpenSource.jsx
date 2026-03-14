@@ -20,7 +20,9 @@ export default function OpenSource() {
             </p>
             <a
               className="mt-4 inline-block px-4 py-2 bg-indigo-600 text-white rounded transform transition duration-150 ease-out hover:scale-105"
-              href="#"
+              href="https://github.com/TJothiprakash/ai-voice-assitant"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               View on GitHub
             </a>
@@ -35,7 +37,9 @@ export default function OpenSource() {
             </ol>
             <a
               className="mt-4 inline-block px-4 py-2 border rounded transform transition duration-150 ease-out hover:scale-105"
-              href="#"
+              href="https://github.com/TJothiprakash/ai-voice-assitant/blob/main/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Contribution guide
             </a>
