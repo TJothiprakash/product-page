@@ -2,11 +2,15 @@ import React from "react";
 
 export default function TechStack() {
   const stack = [
-    "React",
-    "Vite",
-    "Tailwind",
-    "WebAudio / WebRTC",
-    "Node.js integrations",
+    "Python + FastAPI",
+    "AsyncIO + WebSockets",
+    "Twilio Voice API + Media Streams",
+    "Deepgram (Speech-to-Text)",
+    "Groq API (LLaMA 3.1)",
+    "Sentence Transformers (Embeddings)",
+    "FAISS Vector Database (RAG)",
+    "pyttsx3 + FFmpeg (Text-to-Speech)",
+    "ngrok + dotenv",
   ];
   return (
     <section className="py-16 bg-gray-50">

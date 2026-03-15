@@ -6,17 +6,16 @@ export default function OpenSource() {
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold">Open source & contribute</h2>
         <p className="mt-4 text-gray-600">
-          This project is open source — contributions, issues, and feature
-          requests are welcome. Help us improve voice quality, integrations, and
-          documentation.
+          Contributions are welcome. Help improve the call pipeline, add
+          conversation memory, barge-in, streaming TTS, analytics,
+          multi-language support, and more.
         </p>
 
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
           <div className="p-6 bg-gray-50 rounded-lg transform transition duration-180 ease-out hover:shadow-lg">
             <h3 className="font-semibold">Repository</h3>
             <p className="mt-2 text-sm text-gray-600">
-              Find the source on GitHub to explore the code, file issues, and
-              submit pull requests.
+              Explore the code, open issues, and submit pull requests.
             </p>
             <a
               className="mt-4 inline-block px-4 py-2 bg-indigo-600 text-white rounded transform transition duration-150 ease-out hover:scale-105"

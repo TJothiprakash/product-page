@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen flex flex-col">
       <header className="relative max-w-6xl mx-auto w-full p-6 flex justify-between items-center">
         <div className="flex items-center gap-4">
-          <div className="text-2xl font-bold">VoiceAI</div>
+          <div className="text-2xl font-bold">AI Phone Support Agent</div>
         </div>
 
         <nav className="space-x-6 hidden md:flex">
@@ -114,7 +114,8 @@ export default function App() {
 
       <footer className="bg-white border-t mt-12">
         <div className="max-w-6xl mx-auto p-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} VoiceAI — AI Voice Agent for phone calls
+          © {new Date().getFullYear()} AI Phone Support Agent — Real-time voice
+          support with Twilio + Deepgram + RAG
         </div>
       </footer>
     </div>

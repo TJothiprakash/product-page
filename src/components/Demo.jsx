@@ -27,9 +27,10 @@ export default function Demo() {
   return (
     <section id="demo" className="py-16 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold">Live Demo</h2>
+        <h2 className="text-3xl font-bold">Demo</h2>
         <p className="mt-2 text-gray-600">
-          Hear a short simulated call to experience voice quality and timing.
+          A small browser-only simulation (beep) plus an example transcript of
+          how a real call would sound.
         </p>
 
         <div className="mt-6 flex items-center gap-4">
@@ -40,7 +41,8 @@ export default function Demo() {
             {playing ? "Playing..." : "Play demo"}
           </button>
           <div className="text-sm text-gray-600">
-            No phone number required — this is a client-side demo.
+            No phone number required — the real system uses Twilio Media
+            Streams.
           </div>
         </div>
 
@@ -48,12 +50,12 @@ export default function Demo() {
           <strong>Transcript preview</strong>
           <div className="mt-3 text-sm text-gray-700">
             <div>
-              <span className="font-medium">Caller:</span> Hi, I'd like to learn
-              about your enterprise plan.
+              <span className="font-medium">Caller:</span> How can I make a
+              payment?
             </div>
             <div className="mt-2">
-              <span className="font-medium">Agent (AI):</span> Absolutely — do
-              you have a preferred integration?
+              <span className="font-medium">Agent (AI):</span> You can make a
+              payment using the mobile app or through the web portal.
             </div>
           </div>
         </div>

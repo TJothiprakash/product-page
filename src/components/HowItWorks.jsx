@@ -2,10 +2,10 @@ import React from "react";
 
 export default function HowItWorks() {
   const steps = [
-    "Connect telephony (SIP/Provider)",
-    "Map intents and actions",
-    "Train voice & responses",
-    "Deploy and monitor calls",
+    "Twilio receives the call & streams audio",
+    "Deepgram transcribes speech in real time",
+    "RAG retrieves relevant docs (FAISS + embeddings)",
+    "LLM answers and TTS streams audio back",
   ];
   return (
     <section className="py-16">

@@ -2,20 +2,20 @@ import React from "react";
 
 const items = [
   {
-    title: "Natural Speech",
-    desc: "Conversational TTS with prosody and emotion control.",
+    title: "Real phone calls",
+    desc: "Connect a Twilio phone number and handle real customer conversations.",
   },
   {
-    title: "Live Transcription",
-    desc: "Real-time call transcripts and sentiment analysis.",
+    title: "Real-time transcription",
+    desc: "Deepgram streaming speech-to-text turns audio into text instantly.",
   },
   {
-    title: "Intent Routing",
-    desc: "Route calls to agents based on intent and confidence.",
+    title: "RAG knowledge retrieval",
+    desc: "Embeddings + FAISS retrieve relevant docs before the LLM answers.",
   },
   {
-    title: "Integrations",
-    desc: "Connect to CRM, support tools and cloud telephony.",
+    title: "LLM + voice replies",
+    desc: "Groq-hosted LLaMA generates responses, then TTS speaks back to the caller.",
   },
 ];
 
@@ -25,7 +25,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold">Features</h2>
         <p className="mt-2 text-gray-600">
-          Built for revenue and support teams who want to scale phone coverage.
+          A complete end-to-end pipeline: telephony → STT → RAG → LLM → TTS.
         </p>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
